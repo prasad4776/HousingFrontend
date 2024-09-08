@@ -1,0 +1,74 @@
+.paginated-list {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 40px -90px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.record-table th,
+.record-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.record-table th {
+  background-color: #a1d6b2;
+  color: black;
+  font-weight: bold;
+}
+
+.record-table tbody tr:hover {
+  background-color: #cedf9f;
+  cursor: pointer;
+}
+
+.record-table td {
+  text-align: center; /* Centers text in table cells */
+}
+
+.record-table th,
+.record-table td {
+  border-bottom: 2px solid #ddd; /* Adds a border below table headers and cells */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.pagination-item {
+  margin: 0 5px;
+}
+
+.pagination-link {
+  background-color: #a1d6b2;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pagination-link:hover {
+  background-color: #e8b86d;
+}
+
+.pagination-item.active .pagination-link {
+  background-color: #e8b86d;
+  cursor: default;
+}
